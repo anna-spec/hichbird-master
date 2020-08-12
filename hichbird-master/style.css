@@ -1,0 +1,1911 @@
+
+@font-face{
+  font-family: "Rubik-Italic";
+  src: url(fonts/Rubik-Italic.ttf);
+  
+}
+
+@font-face{
+  font-family: "Rubik-Light";
+  src: url(fonts/Rubik-Light.ttf);
+}
+
+
+@font-face{
+  font-family: "Rubik";
+  src: url(fonts/Rubik-Medium.ttf);
+}
+
+
+@font-face{
+  font-family: "Rubik";
+  src: url(fonts/Rubik-Regular.ttf);
+}
+
+
+
+
+header{
+    background-image: url(images/IMG_2568.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1045px;
+    position: relative;
+    z-index: 19;
+}
+
+.heade{
+  background: #00000073;
+  height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+.navbar{
+  padding-top: 22px;
+}
+
+.nav-item{
+  margin-left: 73px;
+}
+
+
+.nav-link{
+  color:  #FFFFFF;
+}
+
+
+.navbar1{
+  position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+
+.navbar1 .navbar-brand{
+  padding-top: 30px;
+}
+
+
+.navbar1 .nav-link{
+  color:  #484848;
+  height: 18px;
+  font-size: 16px;
+}
+
+
+.navbar1 .navbar{
+  height: 99px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 0.5px solid #D6D6D6;
+  padding-bottom: 66px;
+    padding-left: 37px;
+}
+
+.nav_icon{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: baseline;
+}
+
+
+
+.asia{
+    width: 100%;
+    margin-top: 13px;
+  
+}
+
+
+.asia1 h1{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 40px;
+    margin-top: 273px;
+}
+
+
+.asia p{
+  text-align: center;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 13px;
+    font-size: larger;
+    letter-spacing: 0.6px;
+}
+
+.asia_inputs{
+  justify-content: center;
+  margin-top: 66px;
+}
+
+
+.asia_inputs input{
+  top: 511px;
+  width: 377px;
+  height: 50px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  margin-right: 10px;
+  border: none;
+  outline: none;
+}
+
+::placeholder{
+  padding-left: 10px;
+  
+}
+
+
+select{
+  -webkit-appearance: none !important;
+}
+
+.asia_inputs select{
+  top: 511px;
+  width: 19%;
+  height: 50px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+
+select option{
+  color: #484848;
+}
+
+.asia_inputs button{
+  width: 155px;
+height: 50px;
+background: #D3688D 0% 0% no-repeat padding-box;
+border-radius: 4px;
+opacity: 1;
+color: #FFFFFF;
+border: none;
+outline: none;
+}
+
+.contact_us{
+  margin-left: 26.1%;
+  margin-bottom: 271px;
+}
+
+.contact_us a{
+  color: #FFFFFF;
+  margin-top: 9px;
+  text-decoration: underline;
+  
+  
+}
+
+.heade_footer{
+  justify-content: space-around;
+  border-top: solid 1px;
+  color: #ffffff4f;
+}
+
+
+
+.border_box{
+  padding-top: 45px;
+    border-left: solid 1px;
+    color: #ffffff4f;
+    padding-left: 55px;
+    width: 25%;
+    height: 187px;
+
+}
+
+.border_box1{
+    padding-top: 45px;
+    width: 25%;
+    padding-left: 65px;
+}
+
+
+
+.heade_icon{
+  display: flex;
+  position: relative;
+}
+
+.icons{
+  display: flex;
+  padding-top: 16px;
+}
+
+.heade_icon p{
+  color: #FFFFFF;
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+span{
+  color: #ffffffb8 !important;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.icon_border{
+    width: 59px;
+    height: 59px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    text-align: center;
+    margin-right: 14px;
+}
+
+.icon_border img{
+  padding-top: 14px;
+  
+}
+
+
+
+
+.vl {
+  border-left: 1px solid white;
+  height: 147px;
+  position: absolute;
+  top: 0;
+  background-color: azure;
+  right: 190px;
+  margin-top: -30px;
+  margin-bottom: -31px;
+}
+
+.main_sercl {
+  justify-content: space-between;
+  margin-top: 42px;
+}
+
+
+
+
+
+
+
+.main_text{
+    width: 69%;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    font: Light 18px/26px;
+    letter-spacing: 1px;
+    color: #484848;
+    font-size: 18px;
+    margin-top: 150px;
+}
+
+.border{
+    padding: 10px;
+    width: 145px;
+    border-radius: 50%;
+    height: 145px;
+    border: 1px solid #E3DADA !important;
+    margin-bottom: 27px !important;
+    margin: auto;
+}
+
+.border img{
+  width: 38px;
+    margin-top: 40px;
+    margin-left: 42px;
+    height: 37px;
+}
+
+.sercl_text p{
+  height: 147px;
+  text-align: center;
+  color: #484848;
+  margin: 22px 40px;
+}
+
+.sercl_text h2{
+  margin-left: 23%;
+  color: #484848;
+  font-size: 24px;
+}
+
+.small_sercl p{
+  margin-top: 3px;
+    margin-left: 17px;
+    color: #D3688D;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+
+.small_sercl{
+  width: 46px;
+    border-radius: 50%;
+    height: 46px;
+    border: 1px solid #E3DADA !important;
+    margin-left: 195px;
+    margin-bottom: -40px;
+}
+
+
+main hr{
+  margin-top: 55px;
+    margin-bottom: 90px;
+}
+
+
+main{
+width: 58%;
+margin: auto;
+}
+
+
+
+/*slider*/
+
+
+.owl_one{
+  height: 512px;
+}
+
+.slide_item img {
+    margin: auto;
+}
+
+
+.sol_sect2_sliders .owl-carousel .owl-nav.disabled {
+    display: block;
+}
+.sol_sect2_sliders {
+    position: relative;
+}
+
+
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%  !important;
+}
+
+
+
+
+
+
+.slide_item img {
+  margin: auto;
+}
+
+
+.sol_sect2_sliders .owl_two .owl-nav.disabled {
+  display: block;
+}
+.sol_sect2_sliders {
+  position: relative;
+}
+.sol_sect2_sliders .owl_two .owl-nav .owl-prev{
+  left: 90%;
+  position: absolute;
+  top: -14%;
+}
+
+.sol_sect2_sliders .owl_two .owl-nav .owl-next{
+  right: 1%;
+  position: absolute;
+  top: -14%;
+}
+
+
+.owl_two .owl-item img {
+  display: block;
+  width: 100%  !important;
+}
+
+
+
+
+.owl-carousel button.owl-dot{
+  color: inherit;
+  border: solid #FFFFFF !important;
+  padding: 2px !important;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+  background: #FFFFFF  !important;
+    
+    margin-bottom: 54px !important;
+    outline: none;
+}
+
+
+.owl-dots{
+    margin-top: -55px;
+    position: relative;
+    margin-left: 111px;
+}
+
+
+/* .sol-section2{
+	margin-top: 200px;
+} */
+
+
+.wedding_deals_head{
+  margin-left: 1%;
+}
+
+
+
+
+
+.wedding .weding_img img{
+  width: 19px !important;
+}
+
+
+
+
+.wedding h3{
+  color: #484848;
+  font-size: 20px;
+  padding-left: 5px;
+  padding-bottom: 8px;
+}
+
+.wedding span {
+  color: #D1678C !important;
+  font-size: 18px;
+  margin-left: 36px;
+  font-weight: bold;
+}
+
+.price h3 {
+    color: #484848;
+    font-size: 13px;
+    margin-bottom: unset;
+    padding-bottom: unset;
+}
+
+.price p{
+  color: #484848 !important;
+  font-size: 13px;
+}
+
+.wedding_footer{
+  justify-content: space-between;
+  border-top: 1px solid #E6E5E7;
+  height: 56px;
+
+}
+
+.weeding_footer_txt a{
+  color: #D3688D;
+  font-size: 22px;
+  margin-top: 56px;
+  font-family: Rubik;
+  margin-bottom: 85px;
+
+}
+
+.weeding_footer_txt{
+    margin-top: 55px;
+    margin-bottom: 99px;
+}
+
+
+.wedding_footer .price{
+  text-align: center;
+  padding-top: 11px;
+  border-right:1px solid #E6E5E7 ;
+  height: 56px;
+  width: 40%;
+}
+
+
+.wedding_footer .price1{
+  text-align: center;
+  padding-top: 11px;
+  height: 56px;
+  width: 40%;
+}
+
+
+.slide_item_border{
+  border: 1px solid #E6E5E7;
+  border-radius: 10px;
+  padding-top: 10px;
+  
+}
+
+.wedding_footer .price1 button{
+  width: 67%;
+  height: 35px;
+  background: #D3688D 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+.wedding{
+  margin-top: 17px;
+}
+
+.weding_img p{
+  margin-bottom: unset;
+  font-size: 15px;
+    width: 88%;
+}
+
+
+.wedding_inspirations_text p{
+  font-size: 18px;
+  letter-spacing: 0;
+  color: #484848;
+}
+
+main h1{
+  font-size: 28px;
+  color: #484848;
+  font-family: Rubik-Medium;
+}
+
+.wedding_inspirations_galery{
+  width: 100%;
+  display: flex;
+}
+
+
+.wedding_inspirations_galery img{
+  width: 100%;
+}
+
+.big_img{
+  width: 50%;
+}
+
+.small{
+  width: 50%;
+  height: 193px;
+  margin-right: 3px;
+}
+
+
+
+.small .img{
+    width: 50%;
+    padding: 0 8px 8px;
+    height: 193px;
+}
+
+.ico img{
+  width: unset;
+  margin-right: 6px;
+  margin-top: -7px;
+}
+
+.big_img_content{
+    margin-top: -89px;
+    margin-left: 21px;
+}
+
+
+.big_img_content img{
+  width: unset;
+    margin-right: 14px;
+    margin-top: 5px;
+    height: 20px;
+}
+
+.wedding_inspirations_galery p{
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+
+
+.small_img_content{
+  margin-top: -89px;
+  margin-left: 21px;
+}
+
+.small_img_content span{
+  line-height: 0.1;
+}
+
+
+
+.sol-section3 {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.sol-section3 .container{
+  padding: 0;
+}
+
+.sol-section3 p{
+  color: #484848;
+  font-size: 16px;
+  font-family: Rubik-Medium;
+}
+
+
+
+/* slider 3 */
+
+
+/* footer */
+
+
+.footer_text{
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: space-around;
+}
+
+
+.footer_button {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 46px;
+}
+
+footer h1{
+  font-size: 15px;
+  margin-bottom: 21px;
+  font-family: Rubik-Medium;
+  color: #484848;
+}
+
+.copyright p{
+  color: #484848;
+  font-size: 16px;
+  font-family: Rubik-Light;
+  margin-left: 72px;
+}
+ 
+
+  .copyright {
+    width: 77%;
+    margin: auto;
+  }
+
+.control {
+  height: 40px;
+  border-radius: 4px 0px 0px 4px;
+  outline: unset;
+  border: 1px solid #E6E5E7;
+  font-size: 16px;
+  color: #484848;
+}
+
+.email .btn{
+  height: 40px;
+  border-radius: 0px 4px 4px 0px;
+  width: 100%;
+  background-color: #D3688D;
+  color: #FFFFFF;
+  font-size: 17px;
+  font-family: Rubik-Medium;
+}
+
+.footer_text .txt{
+  width: 15%;
+}
+.footer_text .txt1{
+  width: 31%;
+}
+
+.footer_img{
+    margin-left: 17%;
+    margin-bottom: 144px;
+    margin-top: 160px;
+}
+
+
+.txt1 .email{
+  width: 100;
+}
+
+.txt button{
+  width: 95px;
+  border: 1px solid #E6E5E7;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  font-size: 16px;
+  color: #484848;
+  height: 35px;
+  font-family: Rubik-light;
+}
+
+.footer_footer {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin-top: 33px;
+  padding-top: 53px;
+  margin: auto;
+}
+
+.footer_footer_background{
+  background-color: #efefef;
+  background-repeat: no-repeat;
+  height: 193px;
+}
+
+
+.social{
+  margin-left: 30%;
+}
+
+.inf{
+  margin-right: 30px;
+  color: #484848;
+  font-size: 16px;
+  font-family: Rubik-Medium;
+}
+
+footer .phon p{
+  margin-right: 51px;
+}
+
+.contacts img{
+  margin-right: 10px;
+}
+
+
+.contacts{
+    font-family: Arial;
+    margin-right: 11%;
+}
+
+
+li{
+  list-style: none;
+}
+
+ul{
+  padding: inherit;
+}
+
+
+/* mobile_version */
+
+
+.asia_input button{
+  display: block;
+}
+
+
+
+.asia_input input, .asia_input select {
+  width: 90%;
+  height: 50px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid gainsboro;
+  margin-top: 20px;
+  margin-left: 5%;
+  margin-bottom: 11px;
+}
+
+
+ .asia_input input{
+      margin-top: 20px;
+}
+
+.asia_input button {
+  background: #D3688D 0% 0% no-repeat padding-box;
+  width: 90%;
+  height: 50px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid gainsboro;
+  margin-left: 5%;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: Rubik-Medium;
+
+}
+
+.asia_input .contact_us a{
+  color: #000;
+  margin-top: -8px;
+ 
+}
+
+.asia_input .contact_us{
+  margin-left: 5%;
+}
+
+
+.weding_deal_mobil{
+  margin-left: 12px;
+  margin-bottom: 26px;
+}
+
+.weding_deal_mobil img {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  margin-top: 6px;
+}
+
+.weding_deal_mobil h1{
+  color: #484848;
+  font-size: 26px;
+  font-family: Rubik-Medium;
+  margin-bottom: 23px;
+}
+
+
+.weding_deal_mobil p{
+  font-size: 16px;
+  color: #484848;
+  font-family: Rubik-Regular;
+}
+
+
+
+/* venu_page */
+
+
+.venu_nav .nav-link{
+    font-size: 15px;
+    font-family: Rubik-Medium;
+}
+
+.venu_nav .nav-item {
+  margin-left: 40px;
+}
+.venu_nav .navbar-nav{
+  margin-top: 26px;
+}
+ 
+.venu input{
+  border: 1px solid #E6E5E7;
+}
+
+
+.venu select{
+  border: 1px solid #E6E5E7;
+}
+
+.venu {
+  margin-top: 126px;
+  margin-left: 6px;
+  justify-content: start;
+  margin-bottom: 20px;
+}
+
+
+hr{
+    background-color: #fbffff;
+    margin-bottom: 46px;
+    margin-top: 21px;
+    height: 1.1px;
+}
+
+.venus{
+  width: 66%;
+}
+
+.venus .image{
+  width: 50%;
+  margin-left: 11px;
+  margin-top: 6px;
+}
+
+.venus .image img{
+  width: 100%;
+}
+.heart{
+  width: 23px;
+}
+
+.heart img{
+  width: 100%;
+}
+
+.venus .wedding_deals_head h1{
+  margin-bottom: 21px;
+}
+
+.popular_venus h1{
+    margin-top: 86px;
+    margin-bottom: 21px;
+}
+
+
+.img_contents .img_content{
+  width: 100%;
+}
+
+
+.img_content img{
+  width: 100%;
+}
+
+.img_contents .slide_item_border{
+  padding: 7px;
+  margin-right: 11px;
+}
+
+.img_contents .weding_img{
+    height: 19px;
+    margin-bottom: 12px;
+}
+
+
+.img_contents .weding_img img{
+  margin-right: 8px;
+}
+
+.img_contents{
+  margin-bottom: 10px;
+}
+
+.inspiration_img_content span{
+  color: #000 !important;
+}
+
+.inspiration_img_content{
+  margin-left: 15px;
+  margin-top: 18px;
+}
+.inspiration_img_content .ico img{
+  margin-top: 0px;
+}
+.inspiration_border{
+  padding: 7px;
+  margin-right: 11px;
+  border: 1px solid #E6E5E7;
+  border-radius: 10px;
+}
+.more a{
+  color: #D3688D;
+  font-size: 16px;
+  font-family: Rubik;
+  
+}
+
+.more{
+  margin-top: 43px;
+}
+
+.inspirations_images{
+  margin-bottom: 30px;
+}
+
+.slide_container .slide_item_border{
+  width: unset;
+}
+
+.img_contents  .slide_item_border{
+  width: 33%;
+}
+
+
+.inspiration_border{
+  width: 50%;
+}
+
+.services .price{
+  width: 50%;
+  height: 62px;
+}
+
+.services .wedding{
+  margin-left: 13px;
+}
+
+.services .wedding h3 {
+  padding-left: 0;
+  padding-bottom: 0;
+  font-size: 18px;
+  font-family: Rubik-Medium;
+}
+
+
+.services .wedding p{
+  color: #484848;
+  font-family: Rubik-Light;
+  font-size: 16px;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+  max-width: 100%;
+}
+
+.footer .footer_text, .footer_footer {
+  width: 84%;
+  justify-content: space-between;
+}
+
+  .footer .copyright {
+    width: 91%;
+  }
+
+.footer .footer_img {
+  margin-left: 7%;
+  margin-bottom: 104px;
+}
+
+
+
+/* ---------venu------- */
+
+
+
+
+/* --------Blog----------- */
+
+.blog {
+  width: 75%;
+  margin: auto;
+}
+
+.blog .small .img {
+  width: 50%;
+  padding: 2px 10px 29px;
+  height: inherit;
+}
+
+.blog .wedding_inspirations_galery {
+  margin-top: 97px;
+}
+
+.blog .venu {
+  margin-top: 44px;
+}
+
+.real{
+  margin-top: 162px;
+}
+
+
+.blog .all{
+  width: 97px;
+  height: 34px;
+  background: #D3688D;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-family: Rubik-Medium;
+  font-size: 16px;
+}
+
+.destination{
+  width: 129px;
+}
+
+
+.real_weding{
+  width: 165px;
+}
+
+.venues{
+  width: 97px;
+}
+
+.destination, .real_weding, .venues, .service, .weding_tipes{
+height: 34px;
+background: #FFFFFF;
+border: 1px solid #E6E5E7;
+border-radius: 5px; 
+outline: none;
+color: #484848;
+font-size: 16px;
+font-family: Rubik-Light;
+}
+
+
+.second_buttons{
+  margin-bottom: 64px;
+  display: flex;
+}
+
+
+.blog .gallery{
+  width: 100%;
+}
+
+.gallery img{
+  width: 100%;
+}
+
+.gallery_text .text p{
+  color: #484848;
+  font-size: 18px;
+  font-family: Rubik-Light;
+  width: 74%;
+}
+
+.gallery_text .text{
+    margin-left: 34px;
+    margin-top: 146px;
+}
+
+
+.text h1{
+  color: #484848;
+  font-size: 28px;
+  font-family: Rubik-Medium;
+}
+.text button{
+  width: 155px;
+  height: 50px;
+  background: #D3688D;
+  border-radius: 4px;
+  opacity: 1;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  font-family: Rubik-Medium;
+  font-size: 16px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1800px){
+  main {
+    width: 61%;
+  }
+}
+
+
+@media only screen and (max-width: 1700px){
+.small .img {
+  height: 180px;
+}
+}
+
+
+ @media only screen and (max-width: 1599px){
+
+
+  .footer_text {
+    width: 85%;
+  }
+
+  .footer_links{
+    margin-top: 18px;
+  }
+
+  .copyright {
+    width: 83%;
+  }
+  
+    .nav-item {
+      margin-left: 50px;
+  }
+  .nav-link{
+  padding: 10px;
+  }
+
+  .contact_us {
+    margin-left: 23.1%;
+  }
+  main {
+    width: 69%;
+  }
+
+  /* venu */
+
+  .venus {
+    width: 80%;
+}
+ }
+
+
+@media only screen and (max-width: 1359px){
+
+
+  .navbar{
+    display: block;
+  }
+  .wedding_footer .price {
+  padding-top: 3px;
+  }
+
+  .navbar1 .navbar {
+    height: 187px;
+  }
+
+  .contact_us {
+    margin-left: 20.1%;
+    margin-bottom: 213px;
+  }
+  .social {
+    margin-left: 27%;
+    margin-top: 16px;
+  }
+
+  /* venu */
+
+  .venus .wedding h3 {
+    font-size: 12px;
+
+}
+
+.venus .weding_img p {
+  margin-bottom: unset;
+  font-size: 13px;
+}
+.venus .wedding span {
+  font-size: 16px;
+}
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 1299px) {
+  
+
+  .nav-item {
+    margin-left: 33px;
+  }
+
+  .footer_text .txt {
+    width: 20%;
+  }
+
+  .contact_us {
+    margin-left: 17.1%;
+  }
+  main {
+    width: 83%;
+  }
+  .navbar1 .navbar-brand {
+    padding-top: 0px;
+  }
+  .navbar1 .navbar {
+    height: 141px;
+  }
+  .venu_nav .navbar1 .navbar-brand {
+    padding-top: 1px;
+    padding-bottom: 0;
+}
+.venu_nav .nav-link{
+  padding-top: 0;
+}
+
+.venu_nav .navbar-nav {
+  margin-top: 18px
+}
+
+.venu_nav .navbar1 .navbar {
+  height: 115px;
+}
+.new{
+  margin-left: 19%;
+}
+.social {
+  margin-left: 15%;
+}
+ 
+
+
+
+
+@media only screen and (max-width: 1199px){
+
+  .footer_img {
+    margin-left: 6%;
+    margin-bottom: 75px;
+    margin-top: 47px;
+  }
+  .copyright {
+    width: 97%;}
+
+  .wedding_footer .price {
+  
+    padding-top: 1px;
+}
+.footer_text .txt {
+  width: 18%;
+}
+.venu_nav .navbar1 .navbar {
+  padding-left: 10px;
+}
+.venu_nav .nav-item {
+  margin-left: 21px;
+}
+.venu_nav .icons .nav-link{
+  padding: 4px;
+}
+.venus {
+  width: 95%;
+  margin: auto;
+}
+
+
+@media (max-width: 1074px){
+
+  .wedding_footer .price {
+    padding-top: 1px;
+  }
+  .footer_text {
+    width: 97%;
+  }
+
+.nav-item {
+  margin-left: 17px;
+}
+main {
+  width: 95%;
+}
+.social {
+  margin-left: 11%;
+}
+.footer_text li, p {
+  font-size: 13px;
+}
+.txt button{
+font-size: 13px;
+width: 75px;
+height: 31px;
+}
+.control {
+  height: 31px;
+}
+.email .btn {
+  height: 31px;
+  width: 96%;
+  font-size: 13px;
+}
+.venus{
+width: 99%;
+}
+}
+
+
+
+
+@media only screen and (max-width: 991px){
+
+  .footer_text .txt {
+    width: 22%;
+  }
+        
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: .4rem;
+    padding-left: .4rem;
+  }
+
+  .nav-item {
+    margin-left: 3px;
+  }
+  .nav-link {
+    font-size: 14px;
+  }
+  .navbar-brand .img{
+  width: 150px;
+  }
+
+  .asia_inputs input {
+    width: 295px;
+    height: 43px;
+  }
+
+  .asia_inputs select {
+    width: 161px;
+    height: 43px;
+  }
+
+  .asia_inputs button {
+    width: 115px;
+    height: 43px;
+  }
+
+  .asia1 h1{
+    font-size: 35px;
+  }
+
+  .asia p{
+    font-size: 15px;
+  }
+
+  .asia_inputs{
+    margin-top: 34px;
+  }
+
+  .contact_us a {
+    margin-top: 3px;
+}
+
+ input{
+font-size: 14px !important;
+}
+.contact_us {
+  margin-bottom: 260px;
+}
+
+.icon_border {
+  width: 50px;
+  height: 50px;
+}
+.heade_icon p {
+  font-size: 16px;
+}
+
+.border{
+  height: 125px;
+  width: 125px;
+}
+.border img {
+  margin-top: 27px;
+  margin-left: 36px
+}
+
+
+
+.small_sercl{
+  margin-left: 161px;
+  width: 40px;
+  height: 40px;
+}
+
+.small_sercl p{
+  margin-left: 13px;
+  font-size: 21px;
+}
+.sercl_text h2{
+  font-size: 21px;
+}
+.sercl_text p{
+  margin: 22px 25px;
+  font-size: 13px;
+}
+
+.main_text {
+  font-size: 13px;
+}
+footer .phon p {
+  margin-right: 13px;
+}
+.contacts{
+    margin-right: 3%;
+}
+/* venus */
+
+.venus .asia_inputs {
+  margin-top: 138px;
+}
+
+
+.venus .image {
+  width: 62%;
+}
+
+.wedding_footer .price1 button {
+  width: 91%;
+}
+
+}
+
+
+
+}
+@media only screen and (max-width: 901px){
+.venu_nav .nav-item {
+  margin-left: 6px;
+}
+/* .inspiration_border{
+    display: block !important;
+    height: 340px;
+    width: 36%;
+
+}
+
+.inspirations_img, .inspiration_img_content{
+  text-align: center;
+}
+.inspirations .ico{
+  margin-left: 80px;
+}
+.more{
+margin-top: 10px;
+}*/
+.inspirations_images{
+  display: block !important;
+} 
+.inspiration_border {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.inspiration_img_content p{
+    font-size: 18px;
+}
+.social {
+  margin-left: 4%;
+}
+
+
+
+
+@media only screen and (max-width: 767px){
+
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: .4rem;
+    padding-left: .4rem;
+  }
+
+  .nav-item {
+    margin-left: 3px;
+  }
+  .nav-link {
+    font-size: 14px;
+  }
+  .main_text{
+    font-size: 14px;
+    width: 74%;
+  }
+
+  .border_box{
+    padding-left: 30px;
+  }
+
+  .border_box1{
+    padding-left: 30px;
+  }
+  .small_sercl {
+    margin-left: 129px;
+  }
+  
+  .inf {
+    margin-right: 21px;
+  }
+  .social {
+    margin-left: 1%;
+  }
+  .footer_footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 93%;
+  }
+
+  .mobil_footer .copyright p {
+    margin-top: 5px;
+    margin-left: 0px;
+    font-size: 14px;
+}
+
+
+.footer_footer_background{
+  height: 255px;
+}
+.control{
+  width: 60%;
+}
+.copyright {
+  width: 75%;
+  margin-top: 18px;
+
+}
+.contacts {
+  margin-right: 35%;
+}
+
+.venus .wedding_footer .price1 button {
+  /* width: 62px; */
+  height: 28px;
+}
+.venus .wedding h3, p {
+  font-size: 10px;
+}
+.footer .footer_text, .footer_footer {
+  width: 93%;
+}
+}
+
+
+
+@media only screen and (max-width: 599px){
+.wedding_inspirations{
+  margin-top: 154px;
+}
+.img_contents .slide_item_border {
+  margin-right: 5px;
+}
+
+
+
+@media only screen and (max-width: 575px){
+
+
+ 
+
+
+  header{
+    height: 362px;
+  }
+  .asia1 h1{
+      margin-top: 108px;
+      width: 62%;
+      margin-left: 16px;
+      text-align: left;
+      font-size: 27px;
+  }
+
+  .navbar-brand img{
+    width: 129px;
+  }
+  .wedding_inspirations_text{
+    width: 80%;
+    margin-left: 18px;
+    margin-top: 41px;
+    margin-bottom: 27px;
+  }
+
+  main h1{
+    font-size: 18px;
+    
+  }
+
+  .weeding_footer_txt a {
+    font-size: 18px;
+  }
+  .wedding_inspirations_text p {
+    font-size: 14px;
+
+}
+
+.contact_us {
+  margin-bottom: 35px;
+}
+
+.asia_input h1{
+  color:#484848;
+  font-size: 22px;
+  font-family: Rubik-Medium;
+  margin-left: 5%;
+}
+
+.hichbird_sercl{
+  margin-top: 19px;
+  display: flex;
+}
+
+.small_sercl_mobil{
+  margin-left: 5%;
+  margin-right: 7%;
+}
+
+
+.small_sercl_mobil .small_sercl1 {
+  width: 23px;
+  border-radius: 50%;
+  height: 23px;
+  border: 1px solid #E3DADA !important;
+  margin-right: 7px;
+    margin-top: 2px;
+}
+
+.small_sercl_mobil .small_sercl1 p {
+  margin-left: 7px;
+  color: #D3688D;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 3px;
+}
+
+.hichbird_image .image{
+  width: 103.86px;
+  margin: auto;
+  height: 99px;
+}
+
+.image img{
+  width: 100%;
+}
+.image p{
+  color: #484848;
+  margin-left: 0px;
+  font-size: 15px;
+  font-family: Rubik-Medium;
+  margin-left: 4px;
+}
+.image{
+  background-image: url(images/Image\ 24.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.opacity{
+  background: #ebd2d28f;
+  height: 70px;
+}
+
+
+.wedding_inspirations_galery {
+  display: block;
+
+}
+.big_img {
+  width: 95%;
+  margin: auto;
+}
+.small{
+  width: 99%;
+  margin: auto;
+}
+
+.small_imgs{
+  margin-top: 14%;
+}
+
+
+.small .img {
+      height: 129px;
+}
+
+.small_img_content {
+  margin-top: -71px;
+  margin-left: 6px;
+}
+
+.small_img_content span{
+  font-size: 13px;
+}
+
+.weeding_footer_txt {
+  margin-top: 144px;
+  margin-bottom: 57px;
+  margin-left: 21px;
+}
+
+.wedding_inspirations_galery p {
+      font-size: 11px;
+      margin-bottom: 12px;
+}
+
+.wedding h3 {
+  padding-left: 19px;
+}
+.owl-dots {
+  margin-left: 193px;
+}
+
+/* footer */
+.footer_text {
+  width: 70%;
+  display: block;
+  margin-left: 25px;
+}
+.footer_text .txt {
+  width: 80%;
+  margin-bottom: 51px;
+  margin-top: 67px;
+}
+.footer_text .txt1 {
+  width: 96%;
+  margin-bottom: 30px;
+
+}
+.footer_img {
+  margin-left: 3%;
+}
+.footer_text p{
+  font-size: 13px;
+}
+
+.control {
+  height: 33px;
+  width: 58%;
+}
+
+.email .btn {
+  height: 33px;
+  font-size: 15px;
+}
+.mobil_footer .contacts{
+  padding-top: 32px;
+}
+
+.mobil_footer .footer_footer_background{
+  padding-left: 35px;
+}
+
+  .copyright {
+    width: 100%;
+    margin-top: 9px;
+}
+.footer_links {
+  margin-top: 61px;
+}
+
+.footer_footer_background{
+  height: 279px;
+}
+.venus .img_contents{
+  display: block !important;
+}
+.venus {
+  width: 98%;
+  margin: auto;
+}
+.img_contents .slide_item_border {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.venus .wedding h3, p {
+  font-size: 15px;
+}
+.inspiration_img_content p {
+  font-size: 14px;
+}
+.venus .asia_inputs button {
+  width: 103px;
+  font-size: 13px;
+}
+.wedding_footer .price1 button {
+  width: 54%;
+}
+}
+
+
+@media only screen and (max-width: 489px){
+.small .img {
+  height: 88px;
+}
+.asia_inputs input {
+  width: 184px;
+}
+.inspiration_img{
+  width: 57%;
+}
+.inspiration_img img{
+  width: 100%;
+}
+.inspiration_img_content {
+  margin-top: 1px;
+}
+.inspiration_img_content p {
+  font-size: 14px;
+}
+.more {
+  margin-top: 0%;
+  font-size: 14px;
+}
+.Inspirations span{
+  font-size: 13px;
+}
+}
+
+
+
+
+@media (min-width: 900px){
+
+.navbar-expand-md .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+}
+}
+
+
+
+
